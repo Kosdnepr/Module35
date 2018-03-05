@@ -1,0 +1,5 @@
+<div>
+  <app-contacts-list-component (selectedContact)="displayContact($event)"></app-contacts-list-component>
+
+  <app-contact-details *ngIf="displayedContact" [displayedContact] = "displayedContact"></app-contact-details>
+</div>

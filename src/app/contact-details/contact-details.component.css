@@ -1,0 +1,6 @@
+.selectedContact {
+    border: 2px double blue;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+}

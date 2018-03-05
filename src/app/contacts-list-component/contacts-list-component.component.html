@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Surname</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let contact of contacts" (click)="onSelect(contact)">
+      <td>{{ contact.name }}</td>
+      <td>{{ contact.surname }}</td>
+    </tr>
+  </tbody>
+</table>
